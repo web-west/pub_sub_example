@@ -1,0 +1,23 @@
+{
+  "name": "pub_sub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-west/pub_sub_example.git"
+  },
+  "keywords": [
+    "pub",
+    "sub"
+  ],
+  "author": "web-west",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/web-west/pub_sub_example/issues"
+  },
+  "homepage": "https://github.com/web-west/pub_sub_example#readme"
+}
