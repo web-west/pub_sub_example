@@ -2,8 +2,10 @@
   "name": "pub_sub",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
+    "pub": "node src/pub.js",
+    "sub": "node src/sub.js",
     "test": "npm run test"
   },
   "repository": {
@@ -19,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/web-west/pub_sub_example/issues"
   },
-  "homepage": "https://github.com/web-west/pub_sub_example#readme"
+  "homepage": "https://github.com/web-west/pub_sub_example#readme",
+  "dependencies": {
+    "@tinyhttp/app": "^2.0.22",
+    "ioredis": "^5.1.0",
+    "milliparsec": "^2.2.2"
+  },
+  "type": "module"
 }
